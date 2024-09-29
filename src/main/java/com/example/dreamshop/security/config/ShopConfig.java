@@ -34,9 +34,9 @@ public class ShopConfig {
     @Bean
     public Cloudinary getCloudinary() {
         Map config = new HashMap();
-        config.put("cloud_name", "moinuddin");
-        config.put("api_key", "333449141451178");
-        config.put("api_secret", "wO5FC3oscegqP-JOgiaxMTbWOgw");
+        config.put("cloud_name", "");
+        config.put("api_key", "");
+        config.put("api_secret", "");
         config.put("secure", true);
         return new Cloudinary(config);
     }
